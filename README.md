@@ -19,6 +19,14 @@ online.
   Demonstrates Jupyter notebook, Pandas data frames and automation of GIS
 analysis.
 
+#### Misc
+
++ [Feather](https://blog.rstudio.com/2016/03/29/feather/) is a data file format
+  that allows rapid access to large datasets within R. Pandas has functions
+e.g.
+[to_feather](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_feather.html)
+that can read/write Feather files.
+
 
 ## Past meetings
 
