@@ -13,6 +13,12 @@ revisiting even by experienced developers.
   excellent start for using Python for data. Download as PDF and work away
 online.
 
+#### Demos
+
++ [GeoPandas Demo](https://github.com/BritishGeologicalSurvey/geopandas-demo):
+  Demonstrates Jupyter notebook, Pandas data frames and automation of GIS
+analysis.
+
 
 ## Past meetings
 
@@ -22,3 +28,4 @@ Date | Informatics | Scientists | Notes
 2018-09-11 | 3 | 0 | Interactive plots with Plotly and Bokeh
 2018-09-25 | 7 | 5 | Good split into multiple groups
 2018-10-10 | 4 | 6 | Debugger and logging levels
+2018-10-23 | 2 | 7 | [Easily convert coordinate systems with Pyproj](http://all-geo.org/volcan01010/2012/11/change-coordinates-with-pyproj/)
