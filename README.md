@@ -27,8 +27,37 @@ e.g.
 [to_feather](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_feather.html)
 that can read/write Feather files.
 
+## Useful libraries
+
+#### Science
+
++ Numpy - Adds arrays for numerical work (turns Python into Matlab)
++ Pandas - Adds dataframes for tabular data and time series (turns Python into
+  R)
++ Matplotlib - Make publication-quality plots
+
+#### Spatial
+
++ GeoPandas - Adds geodataframes for GIS-style work
++ pyproj - coordinate system transformations (wrapper to Proj4)
++ fiona - read / write GIS vector data (wrapper to OGR)
++ shapely - geometric operations for GIS vector data (wrapper to GEOS)
++ cartopy - plot spatial data in different map projections (similar to GMT)
++ iris - read / write / plot 4D gridded data (NetCDF, GRIB etc)
+
+
+#### Machine learning / Artificial intelligence
+
++ scikit-learn - I've just put this here because I've heard of it
+
+#### Web services
+
++ falcon - lightweight web framework for creating HTTP APIs
+
 
 ## Past meetings
+
+#### Lyell Centre
 
 Date | Informatics | Scientists | Notes
 ---- | ----------- | ---------- | -----
@@ -46,14 +75,14 @@ Cleaned up IPython code history from coordinate conversion problem:
 
 ```python
 import pyproj
-alaska4 = pyproj.Proj('+init=EPSG:26734')
-alaska5 = pyproj.Proj('+init=EPSG:26705')
 
 def to_alaska5(x, y):
     """
     Takes input in Alaska 4 (values in FEET!!!) and converts to Alaska 5.
     """
     FEET_TO_METRES = 0.3048006
+    alaska4 = pyproj.Proj('+init=EPSG:26734')
+    alaska5 = pyproj.Proj('+init=EPSG:26705')
     return pyproj.transform(alaska4, alaska5, x*FEET_TO_METRES, y*FEET_TO_METRES)
 
 to_alaska5(209844.16, 2233473.9)
