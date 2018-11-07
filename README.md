@@ -29,6 +29,13 @@ that can read/write Feather files.
 
 ## Useful libraries
 
+#### Standard library
+
++ datetime - Tools for dealing with date and time data
++ logging - Log what's going on within your code
++ [pathlib](https://realpython.com/python-pathlib/) - Object-oriented utilities to deal the files and directories
++ traceback - Utilities for handling error message stack traces
+
 #### Science
 
 + Numpy - Adds arrays for numerical work (turns Python into Matlab)
@@ -45,6 +52,11 @@ that can read/write Feather files.
 + cartopy - plot spatial data in different map projections (similar to GMT)
 + iris - read / write / plot 4D gridded data (NetCDF, GRIB etc)
 
+#### Databases
+
++ SQLAlchemy - Deal with databases as Python objects in backend-agnostic way
++ [sqlacodegen](https://github.com/agronholm/sqlacodegen) - Automatically generate models from existing database
++ [eralchemy](https://github.com/Alexis-benoist/eralchemy) - Automatically generate entity-relation diagrams from existing database
 
 #### Machine learning / Artificial intelligence
 
@@ -87,3 +99,44 @@ def to_alaska5(x, y):
 
 to_alaska5(209844.16, 2233473.9)
 ```
+
+#### 2018-11-07 Exception handling
+
+Cleaned up code to demonstrate catching and handling of exceptions.
+
+```python
+import logging
+from traceback import TracebackException
+
+# Custom exceptions can have helpful names and may perform extra
+# tasks such as logging or raising an error dialog in a GUI application.
+class HelpfulZeroException(Exception):
+    """A custom exception that writes a log entry when called."""
+    logging.exception('Helpful Zero exception raised')
+
+# This code demonstrates an error when you have a file open
+try:
+    f = open('test.txt', 'w')
+    f.write('hello again\n')
+    1/0  # BOOM!!!
+    f.write('and again')  # this line will never be called
+    
+except ZeroDivisionError as err:
+    # Catch the error and extract useful stack trace information
+    tb_exception = TracebackException.from_exception(err)
+    bad_line = tb_exception.stack[-1].lineno
+    
+    # Create a new error with more helpful information
+    # The program will terminate here
+    msg = f"Tried to divide by zero on line {bad_line}"
+    raise HelpfulZeroException(msg) from err
+
+finally:
+    # This line is always called, whether an error was raised or not
+    # In this case it makes sure that the file is always closed.
+    f.close()
+
+logging.debug('Successfully wrote lines to file')
+```
+
+Note that this a contrived example and that it is best to use [context managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/) to make sure that files are closed when you are finished with them.
