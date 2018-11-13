@@ -3,7 +3,7 @@
 
 Comes with 2.7 by default and does not distribute 3.6 in core packages so you need EPEL.
 
-  * sudo yum install python3
+  * sudo yum install python36 python36-devel
   * /usr/bin/python36 -m venv env
 
 Then add the following to .bashrc or .zshrc
