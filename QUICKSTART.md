@@ -23,7 +23,7 @@ If you get an error about kernel-headers then
 
   * sudo yum install kernel-headers
 
-If you get an error about not finding the kernel-headers package, make sure you have a recent-ish kernel, run
+If you get an error about not finding the kernel-headers package, worth checking the last line of `/etc/yum.conf` to make sure that `kernel*` packages are not being excluded, and also
 
   * sudo yum update
 
