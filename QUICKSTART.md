@@ -1,5 +1,25 @@
+# Windows
 
-## Centos 7
+Anaconda recommended
+
+GIS Dependencies
+
+### Shapely / pyproj
+
+If you use Anaconda you should get a binary wheel and not need the C libraries.
+
+If installing with a system python you need OSGeo4W libraries in your PATH at installation time. 
+
+(The shapely docs point you at GEOS_LIBRARY_PATH but it's not enough by itself.
+
+  * Install OSGeo4W - download from here, do full Desktop install https://trac.osgeo.org/osgeo4w/
+
+  * $Env:PATH="$Env:PATH;C:\OSGeo4W64\bin\"
+
+  * C:\Python36\Scripts\pip.exe install shapely
+
+
+# Centos 7
 
 Comes with 2.7 by default and does not distribute 3.6 in core packages so you need EPEL.
 
@@ -11,7 +31,7 @@ Then add the following to .bashrc or .zshrc
 
 Be aware there is an RH graphical installer package also called anaconda
 
-### Build tools 
+## Build tools 
 
 (For C/C++ based dependencies)
 
@@ -27,5 +47,6 @@ If you get an error about not finding the kernel-headers package, worth checking
 
   * sudo yum update
 
+## GIS dependencies
 
-
+  * TBC
