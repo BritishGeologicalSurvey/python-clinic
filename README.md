@@ -78,6 +78,8 @@ Date | Informatics | Scientists | Notes
 2018-09-25 | 7 | 5 | Good split into multiple groups
 2018-10-10 | 4 | 6 | Debugger and logging levels
 2018-10-23 | 2 | 7 | [Easily convert coordinate systems with Pyproj](http://all-geo.org/volcan01010/2012/11/change-coordinates-with-pyproj/)
+2018-11-07 | 4 | 4 | Exception handling
+2018-11-20 | 5 | 4 | Virtual environments
 
 ## Notes
 
