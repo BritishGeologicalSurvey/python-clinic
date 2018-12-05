@@ -80,6 +80,7 @@ Date | Informatics | Scientists | Notes
 2018-10-23 | 2 | 7 | [Easily convert coordinate systems with Pyproj](http://all-geo.org/volcan01010/2012/11/change-coordinates-with-pyproj/)
 2018-11-07 | 4 | 4 | Exception handling
 2018-11-20 | 5 | 4 | Virtual environments
+2018-12-05 | 5 | 4 | Testing with pytest and downloading PDFs
 
 ## Notes
 
