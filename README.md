@@ -43,20 +43,20 @@ that can read/write Feather files.
 
 #### Science
 
-+ Numpy - Adds arrays for numerical work (turns Python into Matlab)
-+ Pandas - Adds dataframes for tabular data and time series (turns Python into
++ [Numpy](http://www.numpy.org/) - Adds arrays for numerical work (turns Python into Matlab)
++ [Pandas](https://pandas.pydata.org/) - Adds dataframes for tabular data and time series (turns Python into
   R)
-+ Matplotlib - Make publication-quality plots
++ [Matplotlib](https://matplotlib.org/) - Make publication-quality plots
 
 #### Spatial
 
-+ GeoPandas - Adds geodataframes for GIS-style work
++ [GeoPandas](http://geopandas.org/) - Adds geodataframes for GIS-style work
 + pyproj - coordinate system transformations (wrapper to Proj4)
 + fiona - read / write GIS vector data (wrapper to OGR)
 + shapely - geometric operations for GIS vector data (wrapper to GEOS)
 + cartopy - plot spatial data in different map projections (similar to GMT)
 + iris - read / write / plot 4D gridded data (NetCDF, GRIB etc)
-+ arcpy - ESRI specific functions to handle and take advantage of ESRI constructs
++ [arcpy](http://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm) - ESRI specific functions to handle and take advantage of ESRI constructs
 
 #### Databases
 
@@ -66,7 +66,11 @@ that can read/write Feather files.
 
 #### Machine learning / Artificial intelligence
 
-+ scikit-learn - I've just put this here because I've heard of it
++ [scikit-learn](https://scikit-learn.org/stable/) - various algorithms for implementing a range of ML/AI techniques
+
+#### Image processing
+
++ [scikit-image](https://scikit-image.org/) - various algorithms for image processing
 
 #### Web services
 
