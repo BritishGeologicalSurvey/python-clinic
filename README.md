@@ -79,7 +79,7 @@ that can read/write Feather files.
 
 Date | Attendance | Notes
 ---- | ----------- | -----
-2018-12-04 | ~20 | Overview of interest levels
+2018-12-04 | 20+ | Overview of interest levels
 
 
 #### Lyell Centre
