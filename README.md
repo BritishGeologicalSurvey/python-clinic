@@ -1,8 +1,12 @@
 # Python Clinic
 
-Resources linked to the Lyell Centre Python clinics
+Resources linked to the Lyell Centre and Keyworth Python clinics
 
 ## Handy links
+
+#### Python distributions
+
++ [Anaconda](https://www.anaconda.com/download/)
 
 #### Tutorials
 
@@ -21,6 +25,7 @@ analysis.
 
 #### Misc
 
++ [BGS Teams: Discuss Python ](https://teams.microsoft.com/l/channel/19%3a4cab3e4fd4ab4c0e86f35e5bc75bb528%40thread.skype/Discuss%2520Python?groupId=986a7d3d-501a-4b2c-b8f5-5be979296946&tenantId=b311db95-32ad-438f-a101-7ba061712a4e)
 + [Feather](https://blog.rstudio.com/2016/03/29/feather/) is a data file format
   that allows rapid access to large datasets within R. Pandas has functions
 e.g.
@@ -51,6 +56,7 @@ that can read/write Feather files.
 + shapely - geometric operations for GIS vector data (wrapper to GEOS)
 + cartopy - plot spatial data in different map projections (similar to GMT)
 + iris - read / write / plot 4D gridded data (NetCDF, GRIB etc)
++ arcpy - ESRI specific functions to handle and take advantage of ESRI constructs
 
 #### Databases
 
@@ -68,6 +74,13 @@ that can read/write Feather files.
 
 
 ## Past meetings
+
+#### Keyworth
+
+Date | Attendance | Notes
+---- | ----------- | -----
+2018-12-04 | ~20 | Overview of interest levels
+
 
 #### Lyell Centre
 
