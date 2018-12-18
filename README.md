@@ -81,6 +81,7 @@ Date | Informatics | Scientists | Notes
 2018-11-07 | 4 | 4 | Exception handling
 2018-11-20 | 5 | 4 | Virtual environments
 2018-12-05 | 5 | 4 | Testing with pytest and downloading PDFs
+2018-12-17 | 4 | 0 | Advent of Code dojo
 
 ## Notes
 
@@ -143,3 +144,9 @@ logging.debug('Successfully wrote lines to file')
 ```
 
 Note that this a contrived example and that it is best to use [context managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/) to make sure that files are closed when you are finished with them.
+
+
+#### 2018-12-18 Advent of code
+
+The results of the first puzzle (as written tests-first) is in the
+[advent_of_code](advent_of_code) directory.
