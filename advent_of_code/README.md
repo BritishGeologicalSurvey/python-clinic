@@ -12,6 +12,13 @@ The `pytest`, `ipython` and `ipdb` packages can be installed with:
 pip install -r requirements.txt
 ```
 
+Run tests with:
+
+```bash
+export PYTHONPATH=.
+pytest -vs test_day1.py
+```
+
 ## Test input files
 
 The input files are all present in the repository:
