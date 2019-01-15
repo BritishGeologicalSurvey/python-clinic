@@ -89,7 +89,7 @@ Date | Attendance | Notes
 #### Lyell Centre
 
 Date | Informatics | Scientists | Heriot Watt | Notes
----- | ----------- | ---------- | -----
+---- | ----------- | ---------- | ----------- | -----
 2018-08-28 | 5 | 1 | 0 | Overview of interest levels
 2018-09-11 | 3 | 0 | 0 | Interactive plots with Plotly and Bokeh
 2018-09-25 | 7 | 5 | 0 | Good split into multiple groups
