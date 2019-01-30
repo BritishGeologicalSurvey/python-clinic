@@ -36,10 +36,12 @@ that can read/write Feather files.
 
 #### Standard library
 
+
 + datetime - Tools for dealing with date and time data
 + logging - Log what's going on within your code
 + [pathlib](https://realpython.com/python-pathlib/) - Object-oriented utilities to deal the files and directories
 + traceback - Utilities for handling error message stack traces
++ [subprocess](https://docs.python.org/3/library/subprocess.html) - amongst other things, allows access to command line utilities
 
 #### Science
 
@@ -76,7 +78,6 @@ that can read/write Feather files.
 
 + falcon - lightweight web framework for creating HTTP APIs
 
-
 ## Past meetings
 
 #### Keyworth
@@ -84,6 +85,8 @@ that can read/write Feather files.
 Date | Attendance | Notes
 ---- | ----------- | -----
 2018-12-04 | 20+ | Overview of interest levels
+2019-01-15 | 12  | [Anaconda](./keyworth_materials/anaconda_intro.pdf)
+2019-01-29 | 10  | [Pandas (Python notebook provided)](./keyworth_materials)
 
 
 #### Lyell Centre
@@ -102,6 +105,10 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-01-15 | 5 | 0 | 2 | Datetime, __file__ variable, installation
 
 ## Notes
+
+#### Working with Jupyter notebooks
+
+A walk through using Anaconda is provided [here](./keyworth_materials/open_a_jupyter_notebook.pdf)
 
 #### 2018-10-23 Pyproj code
 
