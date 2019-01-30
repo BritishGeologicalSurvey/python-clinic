@@ -85,20 +85,25 @@ that can read/write Feather files.
 Date | Attendance | Notes
 ---- | ----------- | -----
 2018-12-04 | 20+ | Overview of interest levels
+<<<<<<< HEAD
 2019-01-15 | 12  | [Anaconda](./keyworth_materials/anaconda_intro.pdf)
 2019-01-29 | 10  | [Pandas (Python notebook provided)](./keyworth_materials)
+=======
 
 #### Lyell Centre
 
-Date | Informatics | Scientists | Notes
----- | ----------- | ---------- | -----
-2018-08-28 | 5 | 1 | Overview of interest levels
-2018-09-11 | 3 | 0 | Interactive plots with Plotly and Bokeh
-2018-09-25 | 7 | 5 | Good split into multiple groups
-2018-10-10 | 4 | 6 | Debugger and logging levels
-2018-10-23 | 2 | 7 | [Easily convert coordinate systems with Pyproj](http://all-geo.org/volcan01010/2012/11/change-coordinates-with-pyproj/)
-2018-11-07 | 4 | 4 | Exception handling
-2018-11-20 | 5 | 4 | Virtual environments
+Date | Informatics | Scientists | Heriot Watt | Notes
+---- | ----------- | ---------- | ----------- | -----
+2018-08-28 | 5 | 1 | 0 | Overview of interest levels
+2018-09-11 | 3 | 0 | 0 | Interactive plots with Plotly and Bokeh
+2018-09-25 | 7 | 5 | 0 | Good split into multiple groups
+2018-10-10 | 4 | 6 | 0 | Debugger and logging levels
+2018-10-23 | 2 | 7 | 0 | [Easily convert coordinate systems with Pyproj](http://all-geo.org/volcan01010/2012/11/change-coordinates-with-pyproj/)
+2018-11-07 | 4 | 4 | 0 | Exception handling
+2018-11-20 | 5 | 4 | 0 | Virtual environments
+2018-12-05 | 5 | 4 | 0 | Testing with pytest and downloading PDFs
+2018-12-17 | 4 | 0 | 0 | Advent of Code dojo
+2019-01-15 | 5 | 0 | 2 | Datetime, __file__ variable, installation
 
 ## Notes
 
@@ -165,3 +170,35 @@ logging.debug('Successfully wrote lines to file')
 ```
 
 Note that this a contrived example and that it is best to use [context managers](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/) to make sure that files are closed when you are finished with them.
+
+
+#### 2018-12-18 Advent of code
+
+The results of the first puzzle (as written tests-first) is in the
+[advent_of_code](advent_of_code) directory.
+
+
+#### 2019-01-15 Datetime overview
+
+The following code was used as a demo of modules, classes and `timedelta`.
+
+
+```python
+import datetime as dt
+
+def my_function():
+    print('hello from my function in {}'.format(__file__))
+    
+class MyClass(object):
+    def __init__(self, name, date_of_birth):
+        self.name = name
+        self.date_of_birth = dt.datetime.strptime(date_of_birth, '%Y-%m-%d')
+    
+    def show_info(self):
+        print('{} was born on {}'.format(self.name, self.date_of_birth))
+    
+    def show_age(self):
+        age = dt.datetime.now() - self.date_of_birth
+        age_years = age.days / 365
+        print('{} is {:.1f} years old'.format(self.name, age_years))
+```
