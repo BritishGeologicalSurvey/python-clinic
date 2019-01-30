@@ -85,10 +85,9 @@ that can read/write Feather files.
 Date | Attendance | Notes
 ---- | ----------- | -----
 2018-12-04 | 20+ | Overview of interest levels
-<<<<<<< HEAD
 2019-01-15 | 12  | [Anaconda](./keyworth_materials/anaconda_intro.pdf)
 2019-01-29 | 10  | [Pandas (Python notebook provided)](./keyworth_materials)
-=======
+
 
 #### Lyell Centre
 
