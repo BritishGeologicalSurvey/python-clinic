@@ -256,6 +256,7 @@ Pythex examples:
 Python returns matched data as groups:
 
 ```python
+import re
 match = re.search(r'(\d{4} ?\d{3} ?\d{4})')
 match.groups()
 ```
