@@ -105,6 +105,7 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-01-15 | 5 | 0 | 2 | Datetime, __file__ variable, installation
 2019-02-13 | ? | ? | ? | 
 2019-02-26 | 4 | 0 | 1 | String methods, find replace and regular expressions
+2019-03-13 | 3 | 1 | 2 | Looping [Notebook provided](./edinburgh_materials)
 
 ## Notes
 
