@@ -106,6 +106,7 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-02-13 | ? | ? | ? | 
 2019-02-26 | 4 | 0 | 1 | String methods, find replace and regular expressions
 2019-03-13 | 3 | 1 | 2 | Looping [Notebook provided](./edinburgh_materials)
+2019-03-26 | 5 | 1 | 2 | Splitting time series files [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
 
 ## Notes
 
