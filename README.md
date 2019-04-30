@@ -107,6 +107,7 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-02-26 | 4 | 0 | 1 | String methods, find replace and regular expressions
 2019-03-13 | 3 | 1 | 2 | Looping [Notebook provided](./edinburgh_materials)
 2019-03-26 | 5 | 1 | 2 | Splitting time series files [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
+2019-04-10 | 2 | 1 | 1 | Chatted with Romesh about weathering in borehole records, decided it may be a ML problem. Advised HW person about GNU Octave as a post-student MATLAB alternative.
 
 ## Notes
 
