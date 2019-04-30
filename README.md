@@ -207,7 +207,7 @@ class MyClass(object):
         print('{} is {:.1f} years old'.format(self.name, age_years))
 ```
 
-### String methods, find replace and regular expressions
+### 2019-02-26 String methods, find replace and regular expressions
 
 All string objects have useful methods built-in.
 
