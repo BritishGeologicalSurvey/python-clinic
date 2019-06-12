@@ -108,8 +108,9 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-03-13 | 3 | 1 | 2 | Looping [Notebook provided](./edinburgh_materials)
 2019-03-26 | 5 | 1 | 2 | Splitting time series files [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
 2019-04-10 | 2 | 1 | 1 | Chatted with Romesh about weathering in borehole records, decided it may be a ML problem. Advised HW person about GNU Octave as a post-student MATLAB alternative
-2019-04-30 | 5 | 0 | 1 | Reproducing official plot in
-[hawaii_co2](./edinburgh_materials/hawaii_co2.md)
+2019-04-30 | 5 | 0 | 1 | Reproducing official plot in [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
+2019-05-28 | 5 | 1 | 0 | flake8, pylint and git pre-commit hooks
+2019-06-12 | 2 | 2 | 1 | pytesting console input, geopandas to generate fracture heatmaps
 
 ## Notes
 
