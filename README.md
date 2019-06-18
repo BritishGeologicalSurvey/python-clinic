@@ -105,6 +105,14 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2018-12-05 | 5 | 4 | 0 | Testing with pytest and downloading PDFs
 2018-12-17 | 4 | 0 | 0 | Advent of Code dojo
 2019-01-15 | 5 | 0 | 2 | Datetime, __file__ variable, installation
+2019-02-13 | ? | ? | ? | 
+2019-02-26 | 4 | 0 | 1 | String methods, find replace and regular expressions
+2019-03-13 | 3 | 1 | 2 | Looping [Notebook provided](./edinburgh_materials)
+2019-03-26 | 5 | 1 | 2 | Splitting time series files [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
+2019-04-10 | 2 | 1 | 1 | Chatted with Romesh about weathering in borehole records, decided it may be a ML problem. Advised HW person about GNU Octave as a post-student MATLAB alternative
+2019-04-30 | 5 | 0 | 1 | Reproducing official plot in [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
+2019-05-28 | 5 | 1 | 0 | flake8, pylint and git pre-commit hooks
+2019-06-12 | 2 | 2 | 1 | pytesting console input, geopandas to generate fracture heatmaps
 
 ## Notes
 
@@ -203,3 +211,72 @@ class MyClass(object):
         age_years = age.days / 365
         print('{} is {:.1f} years old'.format(self.name, age_years))
 ```
+
+### 2019-02-26 String methods, find replace and regular expressions
+
+All string objects have useful methods built-in.
+
+```python
+message = "Hello world"
+type(message)
+dir(message)
+message.upper()
+message.lower()
+message_caps = message.upper()
+message.split()
+message.startswith('H')
+message.lower().startswith('h')
+```
+
+Simple find and replace:
+
+```python
+message.find('World')
+message.replace('world', 'Charlie')
+```
+
+Regular expressions can match text patterns, but can be tricky to use.
+Pythex website helps test them.
+Regular expressions can also do search and replace.
+
+Links:
+
++ https://xkcd.com/1171/
++ https://pythex.org/
++ https://docs.python.org/3/library/re.html
+
+Contact data example:
+
+```python
+contacts = """A Geologist, 0131 650 0260, ageol@bgs.ac.uk, EH14 4AP
+S Developer, 0131 650 5432, sdev@bgs.ac.uk, M1 1AA
+T ypoMess, 01316506666, T.Mess@bgs.ac.uk, sw1x 4qq"""
+print(contacts)
+```
+
+Try to match phone numbers, email addresses and postcodes.
+
+Pythex examples:
+
++ [Match postcodes](https://pythex.org/?regex=(%5Ba-zA-Z%5D%7B1%2C2%7D%5Cd%7B1%2C2%7D%5Ba-zA-Z%5D%3F%20%5Cd%7B1%2C2%7D%5Ba-zA-Z%5D%7B2%7D)&test_string=A%20Geologist%2C%200131%20650%200260%2C%20ageol%40bgs.ac.uk%2C%20EH14%204AP%0AS%20Developer%2C%200131%20650%205432%2C%20sdev%40bgs.ac.uk%2C%20M1%201AA%0AT%20ypoMess%2C%2001316506666%2C%20T.Mess%40bgs.ac.uk%2C%20sw1x%204qq&ignorecase=0&multiline=0&dotall=0&verbose=0)
++ [Named groups](https://pythex.org/?regex=(%3FP%3Cphone%3E%5Cd%7B4%7D%20%3F%5Cd%7B3%7D%20%3F%5Cd%7B4%7D).*(%3FP%3Cpostcode%3E%5Ba-zA-Z%5D%7B1%2C2%7D%5Cd%7B1%2C2%7D%5Ba-zA-Z%5D%3F%20%5Cd%7B1%2C2%7D%5Ba-zA-Z%5D%7B2%7D)&test_string=A%20Geologist%2C%200131%20650%200260%2C%20ageol%40bgs.ac.uk%2C%20EH14%204AP%0AS%20Developer%2C%200131%20650%205432%2C%20sdev%40bgs.ac.uk%2C%20M1%201AA%0AT%20ypoMess%2C%2001316506666%2C%20T.Mess%40bgs.ac.uk%2C%20sw1x%204qq&ignorecase=0&multiline=0&dotall=0&verbose=0)
+
+Python returns matched data as groups:
+
+```python
+import re
+match = re.search(r'(\d{4} ?\d{3} ?\d{4})')
+match.groups()
+```
+
+Regular expressions can be used for find and replace, e.g. replace all phone
+numbers with the switchboard.
+
+```python
+re.sub(r'\d{4} ?\d{3} ?\d{4}', '0131 650 1000', contacts)
+```
+
+### 2019-04-03: Hawaii plotting
+
+Attempt to reproduce official Hawaii CO2 plot with Pandas and Matplotlib.  See
+partial solution at [./edinburgh_materials/hawaii-plot.py](./edinburgh_materials/hawaii-plot.py).
