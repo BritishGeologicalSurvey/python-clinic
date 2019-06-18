@@ -7,7 +7,6 @@ Resources linked to the Lyell Centre and Keyworth Python clinics
 #### Python distributions
 
 + [Anaconda](https://www.anaconda.com/download/)
-+ [Anaconda intro (pdf)](./keyworth_materials/anaconda_intro.pdf) 
 
 #### Tutorials
 
@@ -26,7 +25,6 @@ analysis.
 
 #### Misc
 
-+ [Opening up jupyter notebooks (pdf)](./keyworth_materials/open_a_jupyter_notebook.pdf) 
 + [BGS Teams: Discuss Python ](https://teams.microsoft.com/l/channel/19%3a4cab3e4fd4ab4c0e86f35e5bc75bb528%40thread.skype/Discuss%2520Python?groupId=986a7d3d-501a-4b2c-b8f5-5be979296946&tenantId=b311db95-32ad-438f-a101-7ba061712a4e)
 + [Feather](https://blog.rstudio.com/2016/03/29/feather/) is a data file format
   that allows rapid access to large datasets within R. Pandas has functions
@@ -37,6 +35,7 @@ that can read/write Feather files.
 ## Useful libraries
 
 #### Standard library
+
 
 + datetime - Tools for dealing with date and time data
 + logging - Log what's going on within your code
@@ -87,9 +86,16 @@ Date | Attendance | Notes
 ---- | ----------- | -----
 2018-12-04 | 20+ | Overview of interest levels
 2019-01-15 | 12  | [Anaconda](./keyworth_materials/anaconda_intro.pdf)
-2019-01-29 | 10  | [Pandas (Python notebook provided)](./keyworth_materials)
-2019-02-19 | 9   | [Numpy (Python notebook provided)](./keyworth_materials)
-
+2019-01-29 | 10  | [Pandas (Jupyter notebook)](./keyworth_materials/Pandas.ipynb)
+2019-02-19 | 8   | [Getting started with numpy (Jupyter notebook)](./keyworth_materials/Numpy_intro_keyworth_feb2019.ipynb)
+2019-03-07 | 12  | Time series data compilation with Earth Observation data
+2019-03-21 | 5   | [Intro to matplotlib (Jupyter notebook)](./keyworth_materials/plotting/Plotting_with_Matplotlib.ipynb)
+2019-05-02 | 10  | [BGS Oracle data access (example scripts)](./keyworth_materials/oracle_may2019)
+2019-05-16 | 7   | [Python and the BGS HPC](./keyworth_materials/HPC/Python-on-HPC_v2.pdf)
+TBA | - | Jupyter notebooks on HPC
+TBA | - | Parallelisation
+TBA | - | GeoPython 2019 conference summary
+TBA | - | Wildlife monitoring with Python and a Raspberry Pi
 
 #### Lyell Centre
 
