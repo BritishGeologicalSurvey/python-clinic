@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SOBI - borehole {{ number }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/borehole.css') }}">
+  </head>
+
+  <body>
+    <h1>SOBI records for borehole {{ number }}</h1>
+    <table id="borehole">
+      <tr>
+        <td>Number</td>
+        <td>Name</td>
+        <td>Easting</td>
+        <td>Northing</td>
+        <td>EPSG</td>
+        <td>Drilled Length (m)</td>
+      </tr>
+
+      {% for borehole in borehole_data %}
+        <tr>
+          <td>{{ borehole["NUMB"] }}</td>
+          <td>{{ borehole["BORE_NAME"] }}</td>
+          <td>{{ borehole["X"] }}</td>
+          <td>{{ borehole["Y"] }}</td>
+          <td>{{ borehole["EPSG"] }}</td>
+          <td>{{ borehole["DRILLED_LENGTH"] }}</td>
+        </tr>
+      {% endfor %}
+
+    </table>
+  </body>
+
+</html>
