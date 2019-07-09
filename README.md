@@ -92,9 +92,9 @@ Date | Attendance | Notes
 2019-03-21 | 5   | [Intro to matplotlib (Jupyter notebook)](./keyworth_materials/plotting/Plotting_with_Matplotlib.ipynb)
 2019-05-02 | 10  | [BGS Oracle data access (example scripts)](./keyworth_materials/oracle_may2019)
 2019-05-16 | 7   | [Python and the BGS HPC](./keyworth_materials/HPC/Python-on-HPC_v2.pdf)
+2019-07-09 | -   | [GeoPython 2019 conference summary](./keyworth_materials/geopython2019_review.pdf)
 TBA | - | Jupyter notebooks on HPC
 TBA | - | Parallelisation
-TBA | - | GeoPython 2019 conference summary
 TBA | - | Wildlife monitoring with Python and a Raspberry Pi
 
 #### Lyell Centre
