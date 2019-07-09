@@ -86,8 +86,16 @@ Date | Attendance | Notes
 ---- | ----------- | -----
 2018-12-04 | 20+ | Overview of interest levels
 2019-01-15 | 12  | [Anaconda](./keyworth_materials/anaconda_intro.pdf)
-2019-01-29 | 10  | [Pandas (Python notebook provided)](./keyworth_materials)
-
+2019-01-29 | 10  | [Pandas (Jupyter notebook)](./keyworth_materials/Pandas.ipynb)
+2019-02-19 | 8   | [Getting started with numpy (Jupyter notebook)](./keyworth_materials/Numpy_intro_keyworth_feb2019.ipynb)
+2019-03-07 | 12  | Time series data compilation with Earth Observation data
+2019-03-21 | 5   | [Intro to matplotlib (Jupyter notebook)](./keyworth_materials/plotting/Plotting_with_Matplotlib.ipynb)
+2019-05-02 | 10  | [BGS Oracle data access (example scripts)](./keyworth_materials/oracle_may2019)
+2019-05-16 | 7   | [Python and the BGS HPC](./keyworth_materials/HPC/Python-on-HPC_v2.pdf)
+2019-07-09 | 9+2 | [GeoPython 2019 conference summary](./keyworth_materials/geopython2019_review.pdf)
+TBA | - | Jupyter notebooks on HPC
+TBA | - | Parallelisation
+TBA | - | Wildlife monitoring with Python and a Raspberry Pi
 
 #### Lyell Centre
 
