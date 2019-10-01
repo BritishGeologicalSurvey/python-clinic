@@ -1,3 +1,1 @@
-Pipfile.lock
-**/.ipynb_checkpoints
-.idea
+.mypy_cache

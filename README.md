@@ -118,6 +118,8 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-04-10 | 2 | 1 | 1 | Chatted with Romesh about weathering in borehole records, decided it may be a ML problem. Advised HW person about GNU Octave as a post-student MATLAB alternative
 2019-04-30 | 5 | 0 | 1 | Reproducing official plot in [hawaii_co2](./edinburgh_materials/hawaii_co2.md)
 2019-07-05 | 3 | 0 | 0 | Flask database table viewer webapp [details](./edinburgh_materials/flask-demo/README.md)
+2019-10-01 | 5 | 2 | 0 | Accessing dictionary keys as attributes
+[details](./edinburgh_materials/clinic.py)
 
 ## Notes
 
