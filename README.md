@@ -93,9 +93,10 @@ Date | Attendance | Notes
 2019-05-02 | 10  | [BGS Oracle data access (example scripts)](./keyworth_materials/oracle_may2019)
 2019-05-16 | 7   | [Python and the BGS HPC](./keyworth_materials/HPC/Python-on-HPC_v2.pdf)
 2019-07-09 | 9+2 | [GeoPython 2019 conference summary](./keyworth_materials/geopython2019_review.pdf)
-TBA | - | Jupyter notebooks on HPC
-TBA | - | Parallelisation
-TBA | - | Wildlife monitoring with Python and a Raspberry Pi
+2019-09-27 | 4 | Pandas for XML querying
+2019-10-08 | 6 | [R for geospatial](./keyworth_materials/R_for_geospatial.pptx)
+2019-10-29 | 7 | [HPC guides and recipes](https://kwvmxgit.ad.nerc.ac.uk/angmos/hpc-guides-and-recipes)
+2019-11-20 | 7 | [Version control: Gitlab](./keyworth_materials/git4products.pptx)
 
 #### Lyell Centre
 
