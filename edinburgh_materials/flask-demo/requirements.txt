@@ -10,7 +10,7 @@ Flask==1.1.1
 hug==2.5.6
 idna==2.8
 ipdb==0.12
-ipython==7.16.3
+ipython==8.10.0
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jedi==0.14.0
