@@ -6,7 +6,7 @@ Click==7.0
 cx-Oracle==7.2.0
 decorator==4.4.0
 falcon==2.0.0
-Flask==1.1.1
+Flask==2.3.2
 hug==2.5.6
 idna==2.8
 ipdb==0.12
