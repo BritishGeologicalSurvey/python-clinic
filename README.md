@@ -121,7 +121,9 @@ Date | Informatics | Scientists | Heriot Watt | Notes
 2019-07-05 | 3 | 0 | 0 | Flask database table viewer webapp [details](./edinburgh_materials/flask-demo/README.md)
 2019-10-01 | 5 | 2 | 0 | Accessing dictionary keys as attributes
 [details](./edinburgh_materials/clinic.py)
-
+ |  |  |  |  | *Themed tutorial hiatus*
+2024-05-21 | 5 | 1 | 0 | Tutorials Return! Debugging in VSCode and pdb
+2024-06-04 | 4 | 3 | 0 | Objects and classes quick demo. Belfast office Zoom-ed in
 ## Notes
 
 #### Working with Jupyter notebooks
