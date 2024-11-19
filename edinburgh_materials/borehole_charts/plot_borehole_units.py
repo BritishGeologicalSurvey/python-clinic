@@ -20,7 +20,7 @@ def load_csv(filename):
 
 def plot_map(df, output_filename):
     ax = df.plot(x='X_WGS84', y='Y_WGS84', kind='scatter', c='WATER_DEPTH')
-    ax.set_title('Boreholes of the North Sea')
+    ax.set_title('Boreholes of the North Sea by John')
     fig = ax.get_figure()
     fig.savefig(output_filename)
 
