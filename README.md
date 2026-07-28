@@ -124,7 +124,7 @@ Date | Informatics | Scientists | Heriot Watt | Notes
  |  |  |  |  | *Themed tutorial hiatus*
 2024-05-21 | 5 | 1 | 0 | Tutorials Return! Debugging in VSCode and pdb
 2024-06-04 | 4 | 3 | 0 | Objects and classes quick demo. Belfast office Zoom-ed in
-2026-07-28 | 3 | 4 | 0 | Using QGIS with Python
+2026-07-28 | 3 | 5 | 0 | Using QGIS with Python
 ## Notes
 
 #### Working with Jupyter notebooks
